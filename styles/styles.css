@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* Shared Fonts */
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Shared Styles */
+.bg-color {
+  background-color: #rgba(0, 0, 0, 0.5);
+}
+/* Navigation Styles */
+.nav-links {
+  list-style: none;
+}
+.nav-items {
+  text-decoration: none;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 150px 0px;
+}
+.navbar ul {
+  display: flex;
+  gap: 48px;
+}
+#home,
+#cart {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #252432;
+}
+#shop,
+#about-us {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8987a1;
+}
